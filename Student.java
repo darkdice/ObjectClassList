@@ -22,7 +22,7 @@ public class Student extends Person {
   //Return student's format
   @Override
   public String toString() {
-    return String.format("Student: %s, %s\nStudent ID: %d\nMajor: %s", super.l_name, super.f_name,
+    return String.format("Student: %s, %s\nStudent ID: %d\nMajor: %s\n", super.l_name, super.f_name,
                          s_id, major);
   }
 }

@@ -28,6 +28,6 @@ public class Person {
   }
   //Return string format of person
   public String toString() {
-    return String.format("First Name: %s, Last Name: %s\nAge: %d\n", f_name, l_name, age);
+    return String.format("First Name: %s Last Name: %s\nAge: %d\n", f_name, l_name, age);
   }
 }
